@@ -18,13 +18,13 @@
     .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; word-break: break-all; }
 
     /* === ボタン（背景） === */
-    button { background-color: #FFCFB9; }
+    button { background-color: #640000; }
 
     /* === コンプレックス：暗い文字（Q3） === */
-    body.dark-text button { color: #00618C; }
+    body.dark-text button { color: #91FFFF; }
 
     /* === コンプレックス：明るい文字（Q4で使う場合） === */
-    body.light-text button { color: #4AB236; }
+    body.light-text button { color: #91FFFF; }
 
     /* ====PC想定：画像を画面内に収める==== */
     .ui{
@@ -46,8 +46,8 @@
   </style>
 </head>
 
-<!-- ✅ bodyは1つだけ。Q3は暗い文字条件 -->
-<body class="dark-text">
+<!-- ✅ bodyは1つだけ。Q3は明るい文字条件 -->
+<body class="light-text">
   <div class="card">
 
     <!-- UI画像 -->
@@ -139,3 +139,4 @@
   </script>
 </body>
 </html>
+
